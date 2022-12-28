@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<style>
+    body {
+        background-color: cadetblue;
+    }
+
+    textarea {
+        width: 80;
+        height: 250;
+    }
+</style>
+<body>
+    
+    <form action="">
+        <label for="username">username : </label>
+        <input type="username" id="username" placeholder="masukan nama...">
+        <br>
+        <label for="password">password : </label>
+        <input type="password" id="password" placeholder="masukan password...">
+        <br>
+        <label for="jeniskealmin">jeniskealmin : </label>
+        <input type="radio" id="laki-laki" name="jeniskealmin"></input>
+        <label for="laki-laki">laki-laki</label>
+        <input type="radio" id="perempuan" name="jeniskealmin"></input>
+        <label for="perempuan">perempuan</label>
+        <br>
+        hobi :
+        <input type="checkbox" id="coding"><label for="coding">coding</label>
+        <input type="checkbox" id="main game"><label for="main game">main game</label>
+        <input type="checkbox" id="fotografi"><label for="fotografi">fotografi</label>
+        <br>
+        <label for="alamat">alamat : </label>
+        <br>
+        <textarea name="alamat" id="alamat" cols="30" rows="10" placeholder="masukan alamat..."></textarea>
+        <br>
+        <button for="submit">KIRIM</button>
+    </form>
+</body>
+</html>
